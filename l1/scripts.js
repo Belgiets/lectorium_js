@@ -32,6 +32,7 @@ function handle (inputArr) {
     sum += inputArr[i]
   }
 
+  console.log(inputArr.join(', '))
   console.log('max', max)
   console.log('min', min)
   console.log('sum', sum)
